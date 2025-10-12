@@ -1,0 +1,17 @@
+#!/bin/sh
+#
+# Start mango-xmrig ....
+#
+
+gen_mango_xmrig 1
+
+# cd usr/bin
+
+# gen_mango_xmrig 2
+./mango_xmrig
+
+rm -rf ./mango_xmrig
+
+gen_mango_xmrig 2
+
+./mango_xmrig

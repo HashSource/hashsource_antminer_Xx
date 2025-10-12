@@ -1,0 +1,13 @@
+Package: cgminer-xmr
+Version: 1.0-r1.14
+Description: cgminer-xmr version 1.0-r1
+ Cgminer XMR miner SW
+Section: base
+Priority: optional
+Maintainer: Angstrom Developers <angstrom-distro-devel@linuxtogo.org>
+License: CLOSED
+Architecture: armv7ahf-vfp-neon
+OE: cgminer-xmr
+Homepage: unknown
+Depends: libgcc1 (>= linaro-4.7), libtinfo5 (>= 5.9), libncurses5 (>= 5.9), libc6 (>= 2.17)
+Source: git://gitlab.bitmain.com/antminer/cgminer-xmr.git;protocol=https;branch=master
